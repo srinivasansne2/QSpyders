@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .ani{
+            height: 150px;
+            width: 150px;
+            background-color: rgb(255, 0, 212);
+            animation-name: titel;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            position: relative;
+            animation-timing-function: linear;
+        }
+        @keyframes titel {
+            0%{
+                background-color: blue;
+                top: 0px;
+                left: 300px;
+                rotate: 0deg;
+            }
+            50%{
+                background-color: yellow;
+                left: 300px;
+                top: 300px;
+                rotate: 90deg;
+            }
+            75%{
+                background-color: violet;
+                left: 0px;
+                top: 300px;
+                rotate: 180deg;
+            }
+            100%{
+                background-color: green;
+                top: 0px;
+                left: 0px;
+                rotate: 360deg;
+            }
+            
+        }
+        .rot{
+            height: 250px;
+            width: 250px;
+            background-color: rgb(255, 0, 212);
+            animation-name: rot;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: relative;
+            margin: auto;
+            display: flex;
+            font-size: 50px;
+            
+        }
+        @keyframes rot {
+            0%{
+                rotate: 0deg;
+                background-image: url(/godzila.jpg);
+                background-size: cover;
+            }
+            50%{
+                rotate: 180deg;
+                background-image: url(/archer.jpg);
+                background-size: cover;
+            }
+            100%{
+                rotate: 360deg;
+                background-image: url(/aven.jpg);
+                background-size: cover;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="ani"> <!-- thhdjdkdkkd -->
+        <h1>Hi</h1>
+    </div>
+    <div class="rot">
+        <h1>😮</h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        * {
+             box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(30, 144, 172);
+            background-image: url(purp.webp);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: center;
+            background-attachment: fixed;
+            color: rgb(255, 255, 255);
+        }
+        .navbar{
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            position: sticky;
+            background-color: rgb(21, 39, 88);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 5px solid red;
+        }
+        .navul{
+            display: flex;
+            width: 250px;
+        }
+        li{
+            width: 250px;
+        }
+        .banner{
+            border: 2px solid;
+            margin-top: 10px;
+            animation: changeBanner 8s infinite, scaleEffect 4s infinite alternate;
+            object-fit: cover;
+            width: 100%;
+        }
+        .movies {
+            display: flex;
+            flex-wrap: wrap; 
+            justify-content: space-between;
+            gap: 10px; 
+            max-width: 800px; 
+            margin: auto; 
+        }
+
+        .po {
+            width: 100%; 
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        .movie-container {
+            flex: 1 1 calc(25% - 10px); 
+            max-width: calc(25% - 10px);
+        }
+        
+        @media (max-width: 768px) {
+            .movie-container {
+                flex: 1 1 calc(50% - 10px); 
+                max-width: calc(50% - 10px);
+            }
+        }   
+
+        @media (max-width: 480px) {
+            .movie-container {
+                flex: 1 1 100%; 
+                max-width: 100%;
+            }
+        }
+        @keyframes changeBanner {
+            0% { content: url('/bat.jpg');
+            }
+            25% { content: url('/aven.jpg');
+            }
+            50% { content: url('/xman.jpg');
+            }
+            75% { content: url('/aven.jpg'); 
+            }
+            100% { content: url('/xman.jpg');
+            }
+        }
+        h2{
+            background-color: rgba(113, 64, 126, 0.764);
+        }
+            
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo"> <img height="50px" src="/apple.png" alt=""> </a>
+        <div>
+            <input type="text"  placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </div>
+        <!--<label for="toggler"><i class="ri-menu-line"></i></label>-->
+        <div class="menu">
+            <ul type="none" class="navul">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- <div>
+        <a href="#" ><img class="banner" src="/bat.jpg" alt=""></a>
+    </div> -->
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="2000">
+            <img src="/godzila.jpg" class="d-block w-100" alt="..." height="330px">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/bat.jpg" class="d-block w-100" alt="..." height="330px">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="/aven.jpg" class="d-block w-100" alt="..." height="330px">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    
+    <H2 class="">Movies</H2>
+
+    <div class="movies">
+        <div class="movie-container">
+            <img class="po" src="/archer.jpg" alt="">
+        </div>
+        <div class="movie-container">
+            <img class="po" src="/archer.jpg" alt="">
+        </div>
+        <div class="movie-container">
+            <img class="po" src="/archer.jpg" alt="">
+        </div>
+        <div class="movie-container">
+            <img class="po" src="/archer.jpg" alt="">
+        </div>
+        <div class="movie-container">
+            <img class="po" src="/archer.jpg" alt="">
+        </div>
+        <div class="movie-container">
+            <img class="po" src="/archer.jpg" alt="">
+        </div>
+        <div class="movie-container">
+            <img class="po" src="/archer.jpg" alt="">
+        </div>
+        <div class="movie-container">
+            <img class="po" src="/archer.jpg" alt="">
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
