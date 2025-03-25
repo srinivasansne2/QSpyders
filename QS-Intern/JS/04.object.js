@@ -23,3 +23,15 @@ let nest ={
     }
 }
 console.log(nest);
+
+//Function Inside Object
+
+let nestf ={
+    movie1:"Kgf",
+    movie2:"OG",
+    Tickets:function () {
+        console.log("Tickets Confirmed");
+        
+    }
+}
+nestf.Tickets()
