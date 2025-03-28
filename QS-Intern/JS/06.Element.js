@@ -29,3 +29,4 @@ document.body.appendChild(image)
 h1tag.style.backgroundColor="red"
 h1tag.style.border="4px solid"
 h1tag.style.width="fit-content"
+h1tag.style.padding="10px"
