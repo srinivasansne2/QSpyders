@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1tag">Hello id 1</h1>
+    <h1 id="h1tag">Hello id 2</h1>
+    <h1 id="h1tag">Hello id 3</h1>
+
+    <h1 class="h1tag">Hello class 1</h1>
+    <h1 class="h1tag">Hello class 2</h1>
+    <h1 class="h1tag">Hello class 3</h1>
+
+
+    <script>
+        // Targecting Id
+        let h1id=document.getElementById("h1tag")
+        console.log(h1id);
+        
+        // Targeting Class
+        let h1class=document.getElementsByClassName("h1tag")
+        console.log(h1class);
+        console.log(h1class[1]);
+        
+        
+    </script>
+    
+</body>
+</html>
