@@ -24,3 +24,8 @@ para.appendChild(divp)
 let image = document.createElement("img")
 image.setAttribute("src","bat.jpg")  // Inserting img using set atteribut
 document.body.appendChild(image)
+
+// Creating CSS Using Java Script
+h1tag.style.backgroundColor="red"
+h1tag.style.border="4px solid"
+h1tag.style.width="fit-content"
