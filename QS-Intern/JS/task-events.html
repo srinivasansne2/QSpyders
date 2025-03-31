@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Click Color To Change</h1>
+    <Button id="Red">Red</Button>
+    <Button id="Green">Green</Button>
+    <Button id="Blue">Blue</Button>
+    <script>
+        let btn1 = document.getElementById("Red")
+        btn1.addEventListener("click",function(){
+            let h1=document.querySelector("h1")
+            h1.style.color="red"
+        })
+        let btn2 = document.getElementById("Green")
+        btn2.addEventListener("click",function(){
+            let h1=document.querySelector("h1")
+            h1.style.color="green"
+        })
+        let btn3 = document.getElementById("Blue")
+        btn3.addEventListener("click",function(){
+            let h1=document.querySelector("h1")
+            h1.style.color="Blue"
+        })
+    </script>
+</body>
+</html>

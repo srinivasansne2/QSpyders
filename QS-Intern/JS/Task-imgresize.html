@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img src="/QS-Intern/archer.jpg" alt="Image">
+    <button id="low">Size Low</button>
+    <button id="high">Size High</button>
+
+    <script>
+        let btn1 = document.getElementById("low")
+        btn1.addEventListener("click",function(){
+            let img=document.querySelector("img")
+            img.style.width="100px"
+        })
+        let btn2 = document.getElementById("high")
+        btn2.addEventListener("click",function(){
+            let img=document.querySelector("img")
+            img.style.width="300px"
+        })
+    </script>
+    
+</body>
+</html>
