@@ -182,4 +182,25 @@ p{
     padding: 0px;
     text-align: center;
 }
+#banner{
+    text-align: center;
+    background-image: url(./aven.jpg);
 
+}
+#banner span{
+    color: rgb(161, 48, 48);
+}
+#banner button{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 20px;
+    color: #088178;
+    background-color: #5e6ee6;
+    border-radius: 10px;
+    border: none;
+    transition: .4s ease;
+}
+#banner button:hover{
+    background-color: #f07c2a;
+    color: blueviolet;
+}
