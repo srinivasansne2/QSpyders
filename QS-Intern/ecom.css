@@ -183,9 +183,16 @@ p{
     text-align: center;
 }
 #banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    width: 100%;
     background-image: url(./aven.jpg);
-
+    margin: 20px;
+    height: 35vh;
+    background-size: cover;
 }
 #banner span{
     color: rgb(161, 48, 48);
