@@ -50,7 +50,7 @@
 
 }
 #hero{
-    background-image: url(./xman.jpg);
+    background-image: url(./background_image.jpg);
     height:90vh;
     width:100% ;
     background-size: cover;
@@ -202,7 +202,7 @@ p{
     align-items: center;
     text-align: center;
     width: 100%;
-    background-image: url(./aven.jpg);
+    background-image: url(./kidsh.jpg);
     margin: 20px;
     height: 35vh;
     background-size: cover;
@@ -221,6 +221,55 @@ p{
     transition: .4s ease;
 }
 #banner button:hover{
+    background-color: #f07c2a;
+    color: blueviolet;
+}
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 35vh;   
+    width: 700px;
+    background-image: url(./kidsh.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#sm-banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#sm-banner h4{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 600;
+}
+#sm-banner h2{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+}
+#sm-banner span{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+#sm-banner button{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 12px 20px;
+    color: #ffffff;
+    background-color: #5e6ee6;
+    border-radius: 10px;
+    border: none;
+    transition: .4s ease;
+}
+#sm-banner button:hover{
     background-color: #f07c2a;
     color: blueviolet;
 }
