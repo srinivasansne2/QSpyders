@@ -273,3 +273,39 @@ p{
     background-color: #f07c2a;
     color: blueviolet;
 }
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    height: 25vh;   
+    min-width: 30%;
+    background-image: url(./sale.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+#banner3 h2{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 20px;
+}
+#banner3 h3{
+    color: #000000;
+    font-weight: 600;
+    font-size: 15px;
+}
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#banner3 .footwear{
+    background-image: url(./heal.jpg);
+}
+#banner3 .winter{
+    background-image: url(./winter.jpg);
+}
+
