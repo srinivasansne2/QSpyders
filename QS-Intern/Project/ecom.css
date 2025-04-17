@@ -245,11 +245,13 @@ p{
 }
 #sm-banner h4{
     color: aliceblue;
+    -webkit-text-stroke: .5px #000000;
     font-size: 30px;
     font-weight: 600;
 }
 #sm-banner h2{
     color: aliceblue;
+    -webkit-text-stroke: .5px #000000;
     font-size: 20px;
     font-weight: 600;
 }
@@ -286,6 +288,9 @@ p{
     padding: 30px;
     margin-bottom: 20px;
     border-radius: 10px;
+}
+#sm-banner .Summer{
+    background-image: url(./sum.jpg);
 }
 #banner3 h2{
     color: #ffffff;
