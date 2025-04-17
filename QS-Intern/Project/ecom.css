@@ -289,6 +289,7 @@ p{
 }
 #banner3 h2{
     color: #ffffff;
+    -webkit-text-stroke: .5px #000000;
     font-weight: 900;
     font-size: 20px;
 }
@@ -307,5 +308,8 @@ p{
 }
 #banner3 .winter{
     background-image: url(./winter.jpg);
+}
+#banner3 .tshirt{
+    background-image: url(./tshirt.avif);
 }
 
