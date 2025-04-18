@@ -317,4 +317,42 @@ p{
 #banner3 .tshirt{
     background-image: url(./tshirt.avif);
 }
-
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(./background_image.jpg);
+    
+}
+#newsletter h4{
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+}
+#newsletter p{
+    color: #000000;
+    font-size: 15px;
+    font-weight: 600;
+}
+#newsletter input{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    width: 300px;
+    margin-right: 20px;
+}
+#newsletter button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #5e6ee6;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .4s ease;
+}
+#newsletter button:hover{
+    background-color: #f07c2a;
+    color: blueviolet;
+}
