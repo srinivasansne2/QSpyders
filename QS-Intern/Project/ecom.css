@@ -335,6 +335,11 @@ p{
     font-size: 15px;
     font-weight: 600;
 }
+#newsletter p span{
+    color: #c31e1e;
+    font-size: 15px;
+    font-weight: 600;
+}
 #newsletter input{
     padding: 10px;
     border-radius: 5px;
@@ -360,4 +365,5 @@ p{
 .form{
     display: flex;
     width: 30%;
+
 }
