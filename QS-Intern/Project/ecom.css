@@ -396,10 +396,10 @@ footer a{
     margin-bottom: 10px;
 }
 footer a:hover{
-    color: #f07c2a;
+    color: #483aca;
 }
 footer .follow{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 footer .follow i{
     font-size: 20px;
@@ -409,4 +409,15 @@ footer .follow i{
 footer .install .row img{
     border: 1px solid #000000;
     border-radius: 8px;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.copyright p{
+    font-size: 15px;
+    color: #000000;
+    font-weight: 800;
 }
