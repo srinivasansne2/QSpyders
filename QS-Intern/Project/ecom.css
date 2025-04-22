@@ -436,6 +436,7 @@ footer .install .row img{
         align-items: flex-start;
         justify-content: flex-start;
         position: fixed;
+        right: -250px;
         width: 250px;
         top: 0px;
         height: 100vh;
@@ -445,6 +446,9 @@ footer .install .row img{
     }   
     #navbar li{
         margin-bottom: 20px;
+    }
+    #navbar.active{
+        right: 0px;
     }
     #mobile{
         display: flex;
