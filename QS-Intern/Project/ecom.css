@@ -427,6 +427,10 @@ footer .install .row img{
     align-items: center;
 
 }
+#close{
+    display: none;
+    align-items: center;
+}
 
 @media (max-width: 768px) {
     #navbar{
@@ -464,5 +468,18 @@ footer .install .row img{
     #mobile i:hover{
         color: #f07c2a;
         cursor: pointer;
+    }
+    #close{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        color: #000000;
+        text-decoration: none;
+        top: 38px;
+        left: 35 px;
+        font-size: 25px;
+    }
+    #lg-bag{
+        display: none;
     }
 }
