@@ -43,7 +43,7 @@
 #navbar li a:hover::after{
     content:"    ";
     position:absolute;
-    width:60%;
+    width:25%;
     height:1px;
     background-color:#f07c2a;
     bottom:-2px;
@@ -59,7 +59,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    padding: 0px 100px;
+    padding: 0px 80px;
 }
 #hero h1{
     color: bisque;
@@ -477,10 +477,14 @@ footer .install .row img{
         text-decoration: none;
         top: 38px;
         left: 35 px;
-        font-size: 25px;
+        font-size: 30px;
+    }
+    #close:hover{
+        color: #f07c2a;
+        cursor: pointer;
     }
     #lg-bag{
         display: none;
     }
-    
+
 }
