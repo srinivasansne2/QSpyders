@@ -610,3 +610,24 @@ footer .install .row img{
     margin-top: 3px;
     cursor: pointer;
 }
+/* auto */
+.sub-img-col img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+#pro-details .single-pro-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1px solid #000000;
+}
+#pro-details .single-pro-image img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+#pro-details .single-pro-image img.active{
+    border: 1px solid #f07c2a;
+}
+
