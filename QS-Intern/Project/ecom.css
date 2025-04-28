@@ -624,10 +624,10 @@ footer .install .row img{
     border: 1px solid #000000;
 }
 #pro-details .single-pro-image img:hover{
-    transform: scale(1.1);
+    transform: scale(1.07);
     transition: all 0.3s ease-in-out;
 }
-#pro-details .single-pro-image img.active{
+#pro-details .single-pro-image img:hover{
     border: 1px solid #f07c2a;
 }
 
