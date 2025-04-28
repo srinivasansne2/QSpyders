@@ -488,3 +488,109 @@ footer .install .row img{
     }
 
 }
+@media (max-width:788px){
+    #hero{
+        height: 70vh;
+        padding: 0px 40px ;
+        background-position: top 30% right 30% ;
+    }
+    h1{
+        font-size: 30px;
+        line-height: 60px;
+    
+    }
+    h2{
+        font-size: 35px;
+    }
+    h4{
+        font-size: 20px;
+        color: #222;
+    }
+    p{
+      font-size:16px ;
+      color: #01211f;
+      margin: 12px 0px 15px 0px;
+    }
+    #feature{
+        justify-content: center;
+    }
+    #feature .fe-box{
+        margin: 10px 20px;
+    }
+    #products1 .pro-container{
+        justify-content: space-evenly;
+    
+    }
+    #products1 .pro{
+        margin: 6px 6px;
+    }
+    #banner{
+        height: 30vh;
+    }
+    #banner button{
+        font-size: 15px;
+        padding: 8px 12px;
+    }
+    
+    #banner h2{
+        font-size: 22px;
+    }
+    #sm-banner .banner-box{
+         min-width: 100%;
+         height: 26vh;
+         margin-top: 8px;
+    }
+    #sm-banner h4{
+        color: #f6f0f0;
+        font-size: 15px;
+    }
+    #sm-banner h2{
+        color: #f6f0f0;
+        font-size: 20px;
+        padding-bottom: 0px;
+    }
+    #sm-banner span{
+        color: #f6f0f0;
+        font-size: 15px;
+        font-weight: 500;
+        padding-bottom: 5px;
+    }
+    #sm-banner .btn{
+        font-size: 14px;
+        padding: 8px 12px;   
+    }
+    #banner3 .banner-box{
+        width: 100%;
+    }
+    #banner3 h2{
+        font-size: 15px;
+        color: red;
+    }
+    #newsletter .form{
+        width: 100%;
+    }
+    footer .copy-right{
+      text-align: start;
+    }
+} 
+    
+    /* shop page*/
+#shop-header{
+    height: 70vh;
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-image:url("./images/shopbg.avif") ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0px 100px;
+
+}
+#shop-header h2{
+    color: #f6f0f0;
+}
+#shop-header p{
+    color:#f6f0f0;
+}
