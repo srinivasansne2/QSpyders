@@ -594,3 +594,19 @@ footer .install .row img{
 #shop-header p{
     color:#f6f0f0;
 }
+
+/* Product Html */
+#pro-details .single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+.sub-img-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sub-img-col{
+    flex-basis: 24%;
+    margin-top: 3px;
+    cursor: pointer;
+}
