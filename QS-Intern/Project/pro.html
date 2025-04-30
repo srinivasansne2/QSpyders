@@ -35,13 +35,13 @@
                 <img src="./f1.jpg" width="100%" class="sub-img" alt="">
             </div>
             <div class="sub-img-col">
-                <img src="./f1.jpg" width="100%" class="sub-img" alt="">
+                <img src="./f2.jpg" width="100%" class="sub-img" alt="">
             </div>
             <div class="sub-img-col">
-                <img src="./f1.jpg" width="100%" class="sub-img" alt="">
+                <img src="./f3.jpg" width="100%" class="sub-img" alt="">
             </div>
             <div class="sub-img-col">
-                <img src="./f1.jpg" width="100%" class="sub-img" alt="">
+                <img src="./f4.jpg" width="100%" class="sub-img" alt="">
             </div>
             
         </div>
@@ -222,6 +222,22 @@
     <p>© 2025, All Rights Reserved By Sri</p>
 </div>
 
+<script>
+    let mainimg = document.getElementById("mainimg");
+    let subimg = document.getElementsByClassName("sub-img");
+    subimg[0].onclick = function(){
+        mainimg.src = subimg[0].src;
+    }
+    subimg[1].onclick = function(){
+        mainimg.src = subimg[1].src;
+    }
+    subimg[2].onclick = function(){
+        mainimg.src = subimg[2].src;
+    }
+    subimg[3].onclick = function(){
+        mainimg.src = subimg[3].src;
+    }
+</script>
 
 <script src="./ecom.js" ></script>
 </body>
