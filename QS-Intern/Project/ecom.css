@@ -572,6 +572,15 @@ footer .install .row img{
     footer .copy-right{
       text-align: start;
     }
+    /* single */
+    #pro-details{
+        display: flex;
+        flex-direction: column;
+    }
+    #pro-details .single-pro-image{
+        width: 100%;
+        margin-right: 50px;
+    }
 } 
     
     /* shop page*/
@@ -678,3 +687,4 @@ footer .install .row img{
 #pro-details .single-pro-details span{
     line-height: 27px;
 }
+
