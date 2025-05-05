@@ -718,6 +718,12 @@ footer .install .row img{
     width: 70%;
     padding: 30px 0px 0px 0px;
 }
+#blog .blog-box h1{
+    position: absolute;
+    color: #bcc6d0b2;
+    font-size: 80px;
+    font-weight: 700;
+}
 #blog .blog-details a{
     text-decoration: none;
     font-size: 14px;
@@ -733,4 +739,28 @@ footer .install .row img{
     background-color:#f07c2a;
     bottom:-2px;
     left:12px;
+}
+#page{
+    text-align: center;
+}
+#page a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    margin: 0px 5px;
+}
+#page a i{
+    font-size: 15px;
+    font-weight: 800;
+}
+#page a:hover{
+    background-color: #f07c2a;
+    color: #ffffff;
+}
+#page a.active{
+    background-color: #f07c2a;
+    color: #ffffff;
 }
