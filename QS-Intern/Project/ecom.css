@@ -1042,6 +1042,12 @@ footer .install .row img{
     margin: auto;
     /* border: 2px solid red; */
   }
+  #form-details form {
+    width: fit-content;
+    padding: 20px;
+    margin-top: 50px;
+    border: 2px solid blue;
+  }
   table {
     width: 100%;
     border-collapse: collapse;
